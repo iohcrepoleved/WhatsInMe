@@ -1,16 +1,7 @@
-# my_musical
+# 💖 What's in Me
 
-A new Flutter project.
+개발자 최아람 소개 어플
 
-## Getting Started
+## 프로젝트 기간
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2023/05/20 ~ 2023/06/27
