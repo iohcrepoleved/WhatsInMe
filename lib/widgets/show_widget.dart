@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:my_musical/screens/intro_screen.dart';
+import 'package:my_musical/screens/show_detail_screen.dart';
 
 class ShowWidget extends StatelessWidget {
-  final String title, thumb;
+  final String gubun, title, thumb, overview;
   const ShowWidget({
     super.key,
+    required this.gubun,
     required this.title,
     required this.thumb,
+    required this.overview,
   });
 
   @override
@@ -16,7 +18,12 @@ class ShowWidget extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => IntroScreen(),
+            builder: (context) => ShowDetailScreen(
+              gubun: gubun,
+              thumb: thumb,
+              title: title,
+              overview: overview,
+            ),
           ),
         );
       },
@@ -31,6 +38,7 @@ class ShowWidget extends StatelessWidget {
             ),
             child: Image.network(
               thumb,
+              fit: BoxFit.fill,
               headers: const {
                 "User-Agent":
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",

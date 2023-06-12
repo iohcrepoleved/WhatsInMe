@@ -114,6 +114,7 @@ class _MusicScreenState extends State<MusicScreen> {
           artist: music.artist,
           title: music.title,
           thumb: music.thumb,
+          url: music.url,
         );
       },
       separatorBuilder: (context, index) => const Divider(

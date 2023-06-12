@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:my_musical/screens/home_screen2.dart';
+import 'package:my_musical/screens/home_screen.dart';
 
 void main() async {
   // timeDilation = 3.0;
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomeScreen2(),
+      home: HomeScreen(),
     );
   }
 }

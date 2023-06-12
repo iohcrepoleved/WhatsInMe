@@ -89,8 +89,10 @@ class Show extends StatelessWidget {
       itemBuilder: (context, index) {
         var show = snapshot.data![index];
         return ShowWidget(
+          gubun: show.gubun,
           title: show.title,
           thumb: show.thumb,
+          overview: show.overview,
         );
       },
       separatorBuilder: (context, index) => const SizedBox(

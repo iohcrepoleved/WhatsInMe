@@ -42,6 +42,7 @@ dependencies:
   google_maps_flutter: ^2.2.6 # 구글 맵 서비스
   location: ^4.4.0 # 현재 위치
   stroke_text: ^0.0.2 # text stroke
+  youtube_player_flutter: ^8.1.2 # youtube player
   
 dev_dependencies:
   flutter_test:
@@ -92,6 +93,10 @@ flutter:
     - family: 나눔손글씨 중학생
       fonts:
         - asset: assets/fonts/나눔손글씨 중학생.ttf
+
+    - family: ChosunGu
+      fonts:
+        - asset: assets/fonts/Chosungu.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
